@@ -1,0 +1,8 @@
+<input
+  type="checkbox"
+  [checked]="checked"
+  (change)="handleChange($event)"
+  [disabled]="false"
+  autocomplete="off"
+/>
+<pre [innerHtml]="checked | json"></pre>
