@@ -10,6 +10,6 @@ import { ButtonComponent } from './button/button.component';
   imports: [
     CommonModule
   ],
-  exports: [CheckboxComponent]
+  exports: [CheckboxComponent, ButtonComponent]
 })
 export class CommonsModule { }
