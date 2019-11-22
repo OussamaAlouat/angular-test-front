@@ -9,6 +9,12 @@ export class CheckboxComponent {
   @Input()
   checked: boolean;
 
+  @Input()
+  label: string;
+
+  @Input()
+  name: string;
+
   @Output()
   changed: EventEmitter<any>;
 
