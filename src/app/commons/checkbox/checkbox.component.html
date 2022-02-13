@@ -1,8 +1,13 @@
 <input
+  id="{{ name }}"
+  name="{{ name }}"
   type="checkbox"
   [checked]="checked"
   (change)="handleChange($event)"
   [disabled]="false"
   autocomplete="off"
 />
-<pre [innerHtml]="checked | json"></pre>
+
+<label for="{{name}}">
+  {{ label }}
+</label>
